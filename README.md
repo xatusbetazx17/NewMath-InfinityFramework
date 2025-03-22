@@ -134,9 +134,30 @@ print("Escape velocity at r = 0 is:", escape_velocity)
 ~~~
 Escape velocity at r = 0 is: infinity
 ~~~
+## ⏳ 1. Time Travel Paradox
 
+### 🔁 Problem:
+What happens when you divide time by zero?
+
+\[
+\Delta t = \frac{1}{0}
+\]
+
+### ✅ NewMath Interpretation:
+Time collapses to a single point — representing:
+- Teleportation
+- Time loop
+- Time reset
+
+### 💻 Code Example:
+```python
+from new_math import NewMath
+nm = NewMath()
+time_jump = nm.divide(1, 0)
+print("Time collapse event:", time_jump)
 ---
 
+```
 ## 🔍 Future Extensions
 - Graphical visualizer for new math equations
 - Integration into symbolic computation tools
