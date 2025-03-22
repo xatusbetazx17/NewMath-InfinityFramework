@@ -1,7 +1,4 @@
 # NewMath-InfinityFramework
-A conceptual and experimental Python framework exploring an alternative mathematical system that defines division by zero and interactions with infinity in a consistent way.
-
-# NewMath-InfinityFramework
 
 A conceptual and experimental Python framework that redefines core mathematical operations, including the previously undefined division by zero. This new math system proposes a consistent framework for working with "infinity" as a calculable entity, opening possibilities in advanced theory, AI, physics, and abstract computing.
 
