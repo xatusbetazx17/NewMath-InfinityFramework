@@ -139,9 +139,7 @@ Escape velocity at r = 0 is: infinity
 ### 🔁 Problem:
 What happens when you divide time by zero?
 
-\[
-\Delta t = \frac{1}{0}
-\]
+**Δt = 1 / 0**
 
 ### ✅ NewMath Interpretation:
 Time collapses to a single point — representing:
@@ -155,7 +153,6 @@ from new_math import NewMath
 nm = NewMath()
 time_jump = nm.divide(1, 0)
 print("Time collapse event:", time_jump)
----
 
 ```
 ## 🔍 Future Extensions
