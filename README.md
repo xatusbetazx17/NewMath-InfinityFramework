@@ -80,7 +80,7 @@ print("Paradox Resolution Unit Output:", paradox_input)
 ---
 # 🧪 Exercise: Escape Velocity at the Event Horizon Using NewMath
 
-# 🧪 Exercise: Escape Velocity at the Event Horizon
+
 
 ## Scenario
 You're modeling a black hole. According to classical physics, the escape velocity from a celestial object is given by:
