@@ -88,9 +88,7 @@ You're modeling a black hole. According to classical physics, the escape velocit
 $$ v = \sqrt{\frac{2GM}{r}} $$
 
 Where:
-$$
--\( G \) = gravitational constant = \( 6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2} \)
-$$
+-\( G \) = gravitational constant = G = 6.67430 × 10⁻¹¹ m³·kg⁻¹·s⁻²
 - \( M \) = mass of the object (in kilograms)
 - \( r \) = distance from the center of the object (in meters)
 
