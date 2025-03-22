@@ -78,6 +78,69 @@ print("Paradox Resolution Unit Output:", paradox_input)
 ```
 
 ---
+# 🧪 Exercise: Escape Velocity at the Event Horizon Using NewMath
+
+## Scenario:
+You're modeling a black hole. According to classical physics, the escape velocity from a celestial object is given by:
+
+\[
+v = \sqrt{\frac{2GM}{r}}
+\]
+
+Where:
+- \( G \) = gravitational constant = \( 6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2} \)
+- \( M \) = mass of the object (in kilograms)
+- \( r \) = distance from the center of the object (in meters)
+
+---
+
+## 📘 Problem:
+Calculate the escape velocity at a radius \( r = 0 \) for a black hole with mass:
+
+\[
+M = 1.989 \times 10^{30} \, \text{kg}
+\]
+
+(This is the approximate mass of the Sun.)
+
+---
+
+## ❌ Classical Math Result:
+\[
+v = \sqrt{\frac{2GM}{0}} = \sqrt{\infty} = \infty
+\]
+
+This result is undefined in traditional math because division by zero is not allowed.
+
+---
+
+## ✅ NewMath Interpretation:
+In our **NewMath** system, division by zero is **allowed** and returns `"infinity"`.
+
+---
+
+## 🧠 Code Implementation (Python):
+```python
+from new_math import NewMath
+
+nm = NewMath()
+
+# Constants
+G = 6.67430e-11
+M = 1.989e30
+r = 0  # Event horizon at r = 0
+
+# Using NewMath to model escape velocity
+numerator = 2 * G * M
+escape_velocity = nm.divide(numerator, r)
+
+print("Escape velocity at r = 0 is:", escape_velocity)
+```
+## 💻 Expected Output:
+
+~~~
+Escape velocity at r = 0 is: infinity
+~~~
 
 ---
 
