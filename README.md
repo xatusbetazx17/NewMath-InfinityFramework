@@ -37,17 +37,47 @@ NewMath-InfinityFramework/
 
 ## 🚀 Example Usage
 ```python
+
 from new_math import NewMath
 
 nm = NewMath()
 
-print(nm.divide(42, 0))  # ∞
-print(nm.add(100, nm.infinity))  # ∞
+# Basic Infinity Logic
+print(nm.divide(42, 0))  # "infinity"
+print(nm.add(100, nm.infinity))  # "infinity"
 print(nm.subtract(nm.infinity, nm.infinity))  # "Undefined"
 print(nm.multiply(0, nm.infinity))  # 0
 print(nm.exponentiate(nm.infinity, 0))  # 1
-print(nm.solve_equation("10 / 0 + 5"))  # ∞
+print(nm.solve_equation("10 / 0 + 5"))  # "infinity"
+
+# Event Horizon Approximation (Black Hole Escape Velocity Simulation)
+def escape_velocity(mass, radius):
+    if radius == 0:
+        return nm.infinity
+    G = 6.67430e-11  # Gravitational constant
+    return (2 * G * mass) / radius
+
+print("Escape velocity for singularity:", escape_velocity(1.989e30, 0))  # "infinity"
+
+# Speed of Light Simulation with asymptotic limit
+speed = 299792458
+velocity_ratio = lambda v: v / (1 - (v**2 / speed**2)) if v < speed else nm.infinity
+print("Velocity ratio near light speed:", velocity_ratio(speed * 0.999999))
+
+# Quantum Tunneling Estimator
+print("Quantum Tunneling Estimate (Barrier/0):", nm.divide(1.0, 0))
+
+# Economic Collapse Model
+def inflation_model(initial_value, years):
+    return initial_value * (1 + nm.infinity)**years
+print("Hyperinflation after 1 year:", inflation_model(1, 1))
+
+# AI Paradox Resolver
+paradox_input = nm.divide(0, 0)
+print("Paradox Resolution Unit Output:", paradox_input)
 ```
+
+---
 
 ---
 
