@@ -139,11 +139,11 @@ Escape velocity at r = 0 is: infinity
 ### 🔁 Problem:
 What happens when you divide time by zero?
 
-~~~
+$$
 <p align="center">
   <strong>Δt = 1 / 0</strong>
 </p>
-~~~
+$$
 
 ### ✅ NewMath Interpretation:
 Time collapses to a single point — representing:
