@@ -89,7 +89,7 @@ $$ v = \sqrt{\frac{2GM}{r}} $$
 
 Where:
 
--\( G \) = gravitational constant = G = 6.67430 × 10⁻¹¹ m³·kg⁻¹·s⁻²
+-\( G \) = gravitational constant = (G) = 6.67430 × 10⁻¹¹ m³·kg⁻¹·s⁻²
 - \( M \) = mass of the object (in kilograms)
 - \( r \) = distance from the center of the object (in meters)
 
